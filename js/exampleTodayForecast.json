@@ -28,3 +28,86 @@
   "name": "Paris",
   "cod": 200
 }
+
+{MON TRUC A MOI}
+
+{
+"coord": { "lon": 2.3488, "lat": 48.8534},
+"list":[
+  {
+    "dt":1633431600,
+    "sunrise":1633413353,
+    "sunset":1633454512,
+    "temp":
+      {"day":288.07,"min":285.25,"max":289.26,"night":285.25,"eve":287.58,"morn":285.71},
+    "feels_like":{"day":287.73,"night":284.47,"eve":286.72,"morn":285.32},
+    "pressure":1006,
+    "humidity":81,
+    "weather":[
+      {
+        "id":501,
+        "main":"Rain",
+        "description":"moderate rain",
+        "icon":"10d"
+        }
+      ],
+    "speed":8.36,
+    "deg":187,
+    "gust":18.06,
+    "clouds":80,
+    "pop":1,
+    "rain":3.96
+  },
+
+  {"dt":1633518000,
+    "sunrise":1633499841,
+    "sunset":1633540788,
+    "temp":{
+      "day":289.15,"min":283.4,"max":290.39,"night":285.45,"eve":288.12,"morn":283.53},
+    "feels_like":{
+      "day":288.14,"night":284.56,"eve":287.08,"morn":282.84},
+    "pressure":1022,
+    "humidity":51,
+    "weather":[
+      {"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],
+    "speed":5.93,
+    "deg":289,
+    "gust":11.8,
+    "clouds":46,
+    "pop":0},
+
+  {"dt":1633604400,
+    "sunrise":1633586329,
+    "sunset":1633627063,
+    "temp":{
+      "day":288.25,"min":284.06,"max":290.21,"night":287.92,"eve":288.83,"morn":284.93},
+    "feels_like":{
+      "day":287.41,"night":287.2,"eve":288.1,"morn":284.2},
+    "pressure":1027,
+    "humidity":61,
+    "weather":[
+      {"id":804,"main":"Clouds","description":"overcast clouds","icon":"04d"}],
+    "speed":1.99,
+    "deg":89,
+    "gust":5.08,
+    "clouds":100,
+    "pop":0},
+
+  {"dt":1633690800,
+    "sunrise":1633672818,
+    "sunset":1633713340,
+    "temp":{
+      "day":290.46,"min":286.71,"max":291.83,"night":287.03,"eve":288.73,"morn":286.71},
+    "feels_like":{
+      "day":289.5,"night":286.17,"eve":287.83,"morn":285.77},
+    "pressure":1028,
+    "humidity":48,
+    "weather":[
+      {"id":804,"main":"Clouds","description":"overcast clouds","icon":"04d"}],
+    "speed":3.97,
+    "deg":54,
+    "gust":7.36,
+    "clouds":89,
+    "pop":0}
+    ]
+  }
