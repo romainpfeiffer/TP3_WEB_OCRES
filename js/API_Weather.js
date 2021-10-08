@@ -35,7 +35,7 @@ class API_WEATHER{
   //Fais la requête à l'API pour les 4 jours : ajd, demain, apres demain , encore apres demain 
   getThreeDayForecast(){
     return axios
-    .get(`${API_URL_16}?q=${this.city}&units=metric&cnt=4&appid=${API_KEY}`, {
+    .get(`${API_URL_16}?q=${this.city}&cnt=4&units=metric&appid=${API_KEY}`, {
       crossdomain: true
     })
   }
